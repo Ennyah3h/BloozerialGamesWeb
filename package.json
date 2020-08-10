@@ -1,0 +1,22 @@
+{
+  "name": "bloozerial-web",
+  "version": "0.0.1",
+  "description": "Web de Bloozerial para información del equipo y el desarrollo del juego",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "project",
+    "scape",
+    "dystopia",
+    "game-dev",
+    "UI",
+    "Data-Science",
+    "AI",
+    "IoT"
+  ],
+  "author": "Hugo Pérez García",
+  "license": "ISC"
+}
