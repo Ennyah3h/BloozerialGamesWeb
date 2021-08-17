@@ -1,1 +1,18 @@
-﻿
+﻿*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #272727;
+    color: #f7f7f7;
+}
+
+img.header-logo {
+    width: 50px;
+}
+
+.header{
+    display: flex;
+    vertical-align: middle; 
+    justify-content: center;
+}
