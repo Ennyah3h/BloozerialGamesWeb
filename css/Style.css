@@ -1,18 +1,114 @@
-﻿*{
+﻿:root{
+    --color1: #f7f7f7;
+    --color2: #4f4f4f;
+    --color3: #272727;
+    --color3-5: #1c1c1c;
+    --color4: #662483;
+    --color5: #9f51e8;
+    
+}
+*{
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 body {
-    background-color: #272727;
-    color: #f7f7f7;
+    background-color: var(--color1);
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    width: 100vw;
+}
+
+h3{
+    text-align: center;
+    color: var(--color3);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+
+p{
+    color: var(--color1);
+}
+
+/* estilos del header */
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color:var(--color3-5);
+    padding-top: 10px;
 }
 
 img.header-logo {
-    width: 50px;
+    width: 120px;
+}
+.header-title{
+    color: var(--color1);
+    font-size: 75px;
 }
 
-.header{
+/* estilos del main */
+.main {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description {
+    background-color: var(--color2);
+    border: 2px solid var(--color3);
+    border-radius: 5px;
+    width: 75%;
+    min-width: 320px;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 5px 5px var(--color3);
+}
+
+.portfolio {
     display: flex;
-    vertical-align: middle; 
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    height: 40vh;
+    margin-top: 50px;
+    
+}
+
+.article{
+    border: 2px solid var(--color3);
+    background-color: var(--color2);
+    border-radius: 5px;
+    width: 25vw;
+    max-height: min-content;
+    box-shadow: 5px 5px 5px var(--color3);
+    text-align: justify;
+}
+
+.icon-portfolio{
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    margin-bottom: -25px;
+    width: 7vw;
+    border: 2px solid var(--color3);
+    border-radius: 4px;
+    background-color: var(--color1);
+
+}
+
+
+/* estilos del footer */
+.footer {
+    background-color: var(--color3-5);
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
+
+.nota-al-pie{
+
 }
