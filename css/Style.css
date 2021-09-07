@@ -12,6 +12,10 @@
     padding: 0px;
     margin: 0px;
 }
+
+html{
+    font-size: 62.5%;
+}
 body {
     background-color: var(--color1);
     font-family: 'Roboto Condensed';
@@ -43,9 +47,10 @@ p{
 img.header-logo {
     width: 120px;
 }
+
 .header-title{
     color: var(--color1);
-    font-size: 75px;
+    font-size: 7.5rem;
 }
 
 /* estilos del main */
@@ -103,12 +108,9 @@ img.header-logo {
 /* estilos del footer */
 .footer {
     background-color: var(--color3-5);
-    /* position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0; */
+    
 }
 
-.nota-al-pie{
+/* .nota-al-pie{
 
-}
+} */
