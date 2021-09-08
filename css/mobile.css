@@ -39,7 +39,7 @@ h3{
 
 
 p {
-    color: var(--color2);
+    color: var(--color3-5);
     font-size: 1.6rem;
     font-weight: 500;
     text-align: justify;
@@ -52,7 +52,7 @@ p {
 
 strong{
     font-size: 1.8rem;
-    color: var(--color3-5);
+    color: var(--color2);
 }
 
 .header{
@@ -130,4 +130,10 @@ h4{
 
 a{
     color: var(--color5);
+}
+
+.nota-al-pie{
+    color: var(--color1);
+    text-align: end;
+    font-size: 1.2rem;
 }

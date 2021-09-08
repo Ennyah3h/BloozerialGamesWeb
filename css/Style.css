@@ -111,6 +111,6 @@ img.header-logo {
     
 }
 
-/* .nota-al-pie{
-
-} */
+.nota-al-pie{
+    color: var(--color1);
+}
