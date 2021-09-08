@@ -1,64 +1,112 @@
-﻿body {
-    background-color: #080008;
-    display: grid;
-    grid-template-rows: 20% 70% 10%;
-    grid-template-columns: repeat(4, 25%);
+﻿:root{
+    --color1: #f7f7f7;
+    --color2: #4f4f4f;
+    --color3: #272727;
+    --color3-5: #1c1c1c;
+    --color4: #662483;
+    --color5: #9f51e8;
+    
 }
-
-h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-    color: beige;
-}
-
-h1 {
-    font-size: 3em;
-    text-transform: uppercase;
-    margin: 0px;
+*{
+    box-sizing: border-box;
     padding: 0px;
+    margin: 0px;
 }
 
-a {
-    font-weight: 400;
-    font-size: large;
-    text-decoration: none;
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--color1);
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    width: 100vw;
 }
 
-a:hover {
-    color: blueviolet;
-    cursor: pointer;
-
+h3{
+    text-align: center;
+    color: var(--color3);
+    text-transform: capitalize;
+    font-size: 1.6rem;
 }
 
-.header {
-    grid-row: 1 / 2;
-    grid-column: span 4;
+p{
+    color: var(--color1);
+}
+
+/* estilos del header */
+.header{
     display: flex;
+    align-items: center; 
     justify-content: center;
+    background-color:var(--color3-5);
+    padding-top: 10px;
 }
 
-.header-title {
+img.header-logo {
+    width: 120px;
 }
 
-.header-logo {
-    height: 50px;
-    width: 50px;
+.header-title{
+    color: var(--color1);
+    font-size: 7.5rem;
 }
 
-.container {
-    grid-row: 2 / 3;
-    grid-column: span 4;
+/* estilos del main */
+.main {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.menu {
-    grid-column: 1 / 2;
+.description {
+    background-color: var(--color2);
+    border: 2px solid var(--color3);
+    border-radius: 5px;
+    width: 75%;
+    min-width: 320px;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 5px 5px var(--color3);
 }
 
-.content {
-     grid-column: 2 / span 3;
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    height: 40vh;
+    margin-top: 50px;
+    
 }
 
-.footer{
-    grid-row: 3 / 4;
-    grid-column: span 4;
+.article{
+    border: 2px solid var(--color3);
+    background-color: var(--color2);
+    border-radius: 5px;
+    width: 25vw;
+    max-height: min-content;
+    box-shadow: 5px 5px 5px var(--color3);
+    text-align: justify;
+}
+
+.icon-portfolio{
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
+    margin-bottom: -25px;
+    width: 7vw;
+    border: 2px solid var(--color3);
+    border-radius: 4px;
+    background-color: var(--color1);
+
+}
+
+
+/* estilos del footer */
+.footer {
+    background-color: var(--color3-5);
+    
 }
