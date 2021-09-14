@@ -50,9 +50,16 @@ p {
     font-size: 1.7rem;
 }
 
-strong{
+.strong-grey{
     font-size: 1.8rem;
+    font-weight: 700;
     color: var(--color2);
+}
+
+.strong-black{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color3);
 }
 
 .header{
