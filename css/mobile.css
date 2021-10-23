@@ -139,6 +139,10 @@ a{
     color: var(--color5);
 }
 
+.redes{
+    display: none;
+}
+
 .nota-al-pie{
     color: var(--color1);
     text-align: end;
